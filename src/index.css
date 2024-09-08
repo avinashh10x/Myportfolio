@@ -28,3 +28,21 @@ body {
 .overlay-text {
   animation: up-down 4s infinite ease-in-out;
 }
+
+
+
+@keyframes meteor-effect {
+  0% {
+    transform: translateY(-100vh) translateX(100vw); /* Start from top-left corner */
+    opacity: .4;
+  }
+  100% {
+    transform: translateY(100vh) translateX(-100vw); /* End at bottom-right corner */
+    opacity: 0;
+  }
+}
+
+.animate-meteor-effect {
+  animation: meteor-effect 5s linear infinite;
+}
+

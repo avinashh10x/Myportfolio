@@ -158,7 +158,7 @@ function Header() {
                             {/* Mail Icon with Text */}
                             <div className="flex flex-col items-center">
                                 <IconButton
-                                    href="mailto:yourmail@example.com"
+                                    href="mailto:a252550k@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Mail"
