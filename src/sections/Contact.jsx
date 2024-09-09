@@ -37,7 +37,7 @@ function Contact() {
         </Button>
 
         <Button 
-          href={`https://api.whatsapp.com/send/?phone=9876321998&text=Hello%2C%20I'd%20like%20to%20discuss%20a%20project.&type=phone_number&app_absent=0`} 
+          href={`https://api.whatsapp.com/send/?phone=6239378916&text=Hello%2C%20I'd%20like%20to%20discuss%20a%20project.&type=phone_number&app_absent=0`} 
           target="_blank" 
           rel="noopener noreferrer"
           variant="outlined"
