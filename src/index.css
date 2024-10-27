@@ -7,7 +7,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    width: 100vw;
+    width: 100vw !important;
+    
   }
 
 
@@ -31,18 +32,15 @@ body {
 
 
 
-@keyframes meteor-effect {
-  0% {
-    transform: translateY(-100vh) translateX(100vw); /* Start from top-left corner */
-    opacity: .4;
-  }
-  100% {
-    transform: translateY(100vh) translateX(-100vw); /* End at bottom-right corner */
-    opacity: 0;
-  }
-}
 
-.animate-meteor-effect {
-  animation: meteor-effect 5s linear infinite;
+.cursor{
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
 }
 

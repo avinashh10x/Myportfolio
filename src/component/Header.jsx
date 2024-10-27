@@ -85,7 +85,7 @@ function Header() {
                         onClose={toggleDrawer(false)}
                         sx={{
                             '& .MuiDrawer-paper': {
-                                width: '250px',
+                                width: '70vw',
                                 background: 'rgba(0, 0, 0, 0.8)',
                                 backdropFilter: 'blur(10px)',
                                 color: 'white',

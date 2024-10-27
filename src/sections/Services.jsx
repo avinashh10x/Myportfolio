@@ -24,7 +24,7 @@ function Services() {
             <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl px-5">
                 {/* Card 1 */}
                 <div className="bg-gray-800 p-6 shadow-lg rounded-lg flex flex-col items-center">
-                    <ComputerIcon style={{ fontSize: 40 }} className="mb-4 text-white" />
+                    <ComputerIcon style={{ fontSize: 40 }} className="mb-4  text-blue-900"/>
                     <h2 className="text-xl font-bold text-white">UX & UI</h2>
                     <p className="text-gray-400 text-center mt-2">
                         Designing interfaces that are intuitive, efficient, and enjoyable to use.
@@ -33,8 +33,8 @@ function Services() {
 
                 {/* Card 2 */}
                 <div className="bg-gray-800 p-6 shadow-lg rounded-lg flex flex-col items-center">
-                    <AppShortcutIcon style={{ fontSize: 40 }} className="mb-4 text-white" />
-                    <h2 className="text-xl font-bold text-white">Web & Mobile App</h2>
+                <AppShortcutIcon style={{ fontSize: 40 }} className="mb-4 text-blue-900" />
+                <h2 className="text-xl font-bold text-white">Web & Mobile App</h2>
                     <p className="text-gray-400 text-center mt-2">
                         Transforming ideas into exceptional web and mobile app experiences.
                     </p>
@@ -42,7 +42,7 @@ function Services() {
 
                 {/* Card 3 */}
                 <div className="bg-gray-800 p-6 shadow-lg rounded-lg flex flex-col items-center">
-                    <DesignServicesIcon style={{ fontSize: 40 }} className="mb-4 text-white" />
+                    <DesignServicesIcon style={{ fontSize: 40 }} className="mb-4  text-blue-900" />
                     <h2 className="text-xl font-bold text-white">Design & Creative</h2>
                     <p className="text-gray-400 text-center mt-2">
                         Crafting visually stunning designs that connect with your audience.
@@ -51,7 +51,7 @@ function Services() {
 
                 {/* Card 4 */}
                 <div className="bg-gray-800 p-6 shadow-lg rounded-lg flex flex-col items-center">
-                    <CodeIcon style={{ fontSize: 40 }} className="mb-4 text-white" />
+                    <CodeIcon style={{ fontSize: 40 }} className="mb-4  text-blue-900"/>
                     <h2 className="text-xl font-bold text-white">Development</h2>
                     <p className="text-gray-400 text-center mt-2">
                         Bringing your vision to life with the latest technology and design trends.
