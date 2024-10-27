@@ -26,7 +26,7 @@ function Contact() {
       {/* Buttons Section */}
       <div className="mt-8 flex gap-4 w-full max-w-md px-5">
         <Button 
-          href="mailto:your-email@example.com?subject=Project Inquiry&body=Hello%2C%20I'd%20like%20to%20discuss%20a%20project."
+          href="mailto:a252550k@gmail.com?subject=Project Inquiry&body=Hello%2C%20I'd%20like%20to%20discuss%20a%20project."
           variant="outlined"
           color="primary"
           startIcon={<MailIcon />}
