@@ -5,7 +5,7 @@ import Drawer from '@mui/material/Drawer';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import MenuIcon from '@mui/icons-material/Menu';
-import MyResume from '../assets/MyResume.pdf';
+import MyResume from '../assets/AvinashResume.pdf';
 import { Button, Typography } from '@mui/material';
 import MailIcon from '@mui/icons-material/Mail';
 
