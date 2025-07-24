@@ -11,7 +11,7 @@ function Landing() {
         {/* Container for Image and Overlay */}
         <div className="relative bg-white p-1 rounded-full shadow-lg">
           <img
-            className="w-32 h-32 sm:w-48 sm:h-48 rounded-full object-cover"
+            className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover"
             src={avinashImg}
             alt="avinash"
           />
@@ -30,7 +30,8 @@ function Landing() {
              onMouseEnter={() => document.dispatchEvent(new MouseEvent('mouseenter'))}
              onMouseLeave={() => document.dispatchEvent(new MouseEvent('mouseleave'))}>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-700">
-            A simple guy who codes for fun.
+            {/* A simple guy who codes for fun. */}
+            Just a Bug who likes to code
           </h1>
         </div>
       </div>
