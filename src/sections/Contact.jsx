@@ -25,8 +25,8 @@ function Contact() {
 
       {/* Buttons Section */}
       <div className="mt-8 flex gap-4 w-full max-w-md px-5">
-        <Button 
-          href="mailto:a252550k@gmail.com?subject=Project Inquiry&body=Hello%2C%20I'd%20like%20to%20discuss%20a%20project."
+        <Button
+          href="mailto:thissideavinash@gmail.com?subject=Project Inquiry&body=Hello%2C%20I'd%20like%20to%20discuss%20a%20project."
           variant="outlined"
           color="primary"
           startIcon={<MailIcon />}
@@ -36,9 +36,9 @@ function Contact() {
           Email
         </Button>
 
-        <Button 
-          href={`https://api.whatsapp.com/send/?phone=6239378916&text=Hello%2C%20I'd%20like%20to%20discuss%20a%20project.&type=phone_number&app_absent=0`} 
-          target="_blank" 
+        <Button
+          href={`https://api.whatsapp.com/send/?phone=6239378916&text=Hello%2C%20I'd%20like%20to%20discuss%20a%20project.&type=phone_number&app_absent=0`}
+          target="_blank"
           rel="noopener noreferrer"
           variant="outlined"
           color="primary"

@@ -5,7 +5,8 @@ import Drawer from '@mui/material/Drawer';
 import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import MenuIcon from '@mui/icons-material/Menu';
-import MyResume from '../assets/AvinashResume.pdf';
+// import MyResume from '../assets/AvinashResume.pdf';
+import MyResume from '../assets/avinash__resumee.pdf';
 import { Button, Typography } from '@mui/material';
 import MailIcon from '@mui/icons-material/Mail';
 
@@ -23,7 +24,7 @@ function Header() {
 
     // Function to copy email to clipboard
     const copyEmailToClipboard = () => {
-        navigator.clipboard.writeText('a252550k@gmail.com')
+        navigator.clipboard.writeText('thissideavinash@gmail.com')
             .then(() => {
                 setSnackbarMessage('Email copied to clipboard!');
                 setOpenSnackbar(true);
@@ -141,7 +142,7 @@ function Header() {
                             {/* Instagram Icon with Text */}
                             <div className="flex flex-col items-center">
                                 <IconButton
-                                    href="https://www.instagram.com/___avinash___"
+                                    href="https://www.instagram.com/avinashh10x"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Instagram"
@@ -158,7 +159,7 @@ function Header() {
                             {/* Mail Icon with Text */}
                             <div className="flex flex-col items-center">
                                 <IconButton
-                                    href="mailto:a252550k@gmail.com"
+                                    href="mailto:thissideavinash@gmail.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Mail"
@@ -196,7 +197,7 @@ function Header() {
                 <div className="hidden sm:flex items-center space-x-3">
                     <div className="mx-3 flex items-center cursor-pointer" onClick={copyEmailToClipboard}>
                         <MailOutlineIcon style={{ fontSize: '24px', color: 'white' }} />
-                        <p className="mx-2">a252550k@gmail.com</p>
+                        <p className="mx-2">thissideavinash@gmail.com</p>
                     </div>
 
                     {/* Buttons */}
@@ -247,7 +248,7 @@ function Header() {
                         </a>
                         <span>/</span>
                         <a
-                            href="https://www.instagram.com/___avinash___"
+                            href="https://www.instagram.com/avinashh10x"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-blue-500 transition duration-300 "

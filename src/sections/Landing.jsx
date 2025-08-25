@@ -31,7 +31,7 @@ function Landing() {
              onMouseLeave={() => document.dispatchEvent(new MouseEvent('mouseleave'))}>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-700">
             {/* A simple guy who codes for fun. */}
-            Just a Bug who likes to code
+            Just a Bug who likes to code.
           </h1>
         </div>
       </div>

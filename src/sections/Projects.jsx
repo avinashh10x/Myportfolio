@@ -6,72 +6,68 @@ import guessthemovieImg from '../assets/guessthemovie.png'
 import inventryImg from '../assets/inventory.png'
 import amanandbullyImg from '../assets/amanandbully.png'
 import chatbotImg from '../assets/chatbot.png'
+import novemLetter from '../assets/novemLetter.png'
 
 const projectData = [
   {
     id: 1,
-    title: 'Inventory Store Management',
-    description: 'A warehouse and product management app built using React Vite to track inventory in real-time. Developed for a friend to efficiently manage his store with Google login for secure access.',
+    title: 'Novem Letter',
+    description: 'Certificate generation system for Novem Controls with individual/bulk creation, fast search, and PDF/ZIP export.',
     technologies: [
-      'React', 
-      'Vite', 
-      'Chakra UI', 
-      'Appwrite',  
-      'React ApexCharts', 
-      'React Router', 
-      'Google Login'
+      'MERN Stack',
+      'Excel Parsing',
+      'PDF/ZIP Export',
+      'Indexed Search'
     ],
-    liveLink: 'https://store-red-eight.vercel.app', 
-    repoLink: 'https://github.com/avinashh10x/inventory_store_management', 
-    image: inventryImg, 
+    repoLink: 'https://github.com/avinashh10x/novemLetters',
+    image: novemLetter,
   },
   {
     id: 2,
-    title: 'Aman and Bully',
-    description: 'A full-featured website built on Wix for a freelancer, including e-commerce integration, a community section, a parallax landing page, and a subscription feature.',
+    title: 'Inventory Store Platform',
+    description: 'Retail management platform with dashboard, inventory, client product view, and planned invoice + mobile app integration.',
     technologies: [
-      'Wix', 
-      'E-Commerce', 
-      'Community Building', 
-      'Parallax Scrolling', 
-      'Email Subscription'
+      'React',
+      'Vite',
+      'Chakra UI',
+      'Appwrite',
+      'React ApexCharts',
+      'React Router',
+      'Google Login'
     ],
-    liveLink: 'https://www.amanandbully.com/', 
-    // repoLink: '#', 
-    image: amanandbullyImg, 
+    liveLink: 'https://store-red-eight.vercel.app',
+    repoLink: 'https://github.com/avinashh10x/inventory_store_management',
+    image: inventryImg,
   },
   {
     id: 3,
-    title: 'Emojify',
-    description: 'A fun and engaging guessing game where users see emojis and try to guess the movie name. Built with React Vite, MUI for design, and includes a confetti explosion effect for correct guesses.',
+    title: 'Aman and Bully',
+    description: 'A Wix-based website with e-commerce, community features, parallax effects, and subscription system.',
     technologies: [
-      'React', 
-      'Vite', 
-      'MUI', 
-      'Confetti Explosion', 
-      'React Router'
+      'Wix',
+      'E-Commerce',
+      'Community',
+      'Parallax',
+      'Email Subscription'
     ],
-    liveLink: 'https://emojify-three.vercel.app/', 
-    repoLink: 'https://github.com/avinashh10x/Emojify', 
-    image: guessthemovieImg, 
+    liveLink: 'https://www.amanandbully.com/',
+    image: amanandbullyImg,
   },
   {
     id: 4,
     title: 'AI ChatBot with Gemini AI',
-    description: 'A mobile AI chatbot application built using React Native, integrating Gemini AI model for natural language understanding. Features haptic feedback for user interactions and supports markdown in chat responses.',
+    description: 'React Native chatbot app with Gemini AI integration, markdown support, and haptic feedback.',
     technologies: [
-      'React Native', 
-      'Gemini AI', 
-      'Markdown Display', 
-      'Haptic Feedback', 
-      'React Native Dotenv'
+      'React Native',
+      'Gemini AI',
+      'Markdown',
+      'Haptic Feedback'
     ],
-    // liveLink: '/', 
-    repoLink: 'https://github.com/avinashh10x/ChatBot_react_native', 
+    repoLink: 'https://github.com/avinashh10x/ChatBot_react_native',
     image: chatbotImg,
   },
-  // Add more projects here
 ];
+
 
 function Projects() {
   return (

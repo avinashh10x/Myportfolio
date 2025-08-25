@@ -34,7 +34,7 @@ function Footer() {
                         </a>
                         <span>/</span>
                         <a
-                            href="https://www.instagram.com/___avinash___"
+                            href="https://www.instagram.com/avinashh10x"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-blue-500 transition duration-300"
@@ -64,7 +64,7 @@ function Footer() {
                             <GitHub />
                         </IconButton>
                         <IconButton
-                            href="https://www.instagram.com/___avinash___"
+                            href="https://www.instagram.com/avinashh10x"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Instagram"
