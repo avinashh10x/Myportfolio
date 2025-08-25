@@ -173,6 +173,9 @@ function Header() {
                                 </Typography>
                             </div>
 
+                             git config --global user.email "raavaannn@gmail.com"
+                              git config --global user.name "avinashh10x"
+
                             {/* Resume Button */}
                             <a
                                 href={MyResume}
