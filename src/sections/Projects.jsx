@@ -7,6 +7,7 @@ import inventryImg from '../assets/inventory.png'
 import amanandbullyImg from '../assets/amanandbully.png'
 import chatbotImg from '../assets/chatbot.png'
 import novemLetter from '../assets/novemLetter.png'
+import { LinkedIn } from '@mui/icons-material';
 
 const projectData = [
   {
@@ -21,6 +22,7 @@ const projectData = [
     ],
     repoLink: 'https://github.com/avinashh10x/novemLetters',
     image: novemLetter,
+    linkedInLink: 'https://www.linkedin.com/posts/avinash-kumar-519616249_mern-react-nodejs-activity-7308851891549913089-zTpC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQc2isBE6-pv4qF0TQYRxS_QPnu2N9r2l4'
   },
   {
     id: 2,
@@ -38,6 +40,7 @@ const projectData = [
     liveLink: 'https://store-red-eight.vercel.app',
     repoLink: 'https://github.com/avinashh10x/inventory_store_management',
     image: inventryImg,
+    linkedInLink: 'https://www.linkedin.com/posts/avinash-kumar-519616249_excited-to-introduce-my-latest-project-activity-7219746409384665088-XkR9?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQc2isBE6-pv4qF0TQYRxS_QPnu2N9r2l4'
   },
   {
     id: 3,
@@ -52,6 +55,8 @@ const projectData = [
     ],
     liveLink: 'https://www.amanandbully.com/',
     image: amanandbullyImg,
+    linkedInLink: 'https://www.linkedin.com/posts/avinash-kumar-519616249_amanandbully-webdevlopment-activity-7189582311338708993-Vn5t?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQc2isBE6-pv4qF0TQYRxS_QPnu2N9r2l4'
+
   },
   {
     id: 4,
@@ -65,6 +70,7 @@ const projectData = [
     ],
     repoLink: 'https://github.com/avinashh10x/ChatBot_react_native',
     image: chatbotImg,
+    linkedInLink: 'https://www.linkedin.com/posts/avinash-kumar-519616249_reactnative-androidapp-chatbot-activity-7168718426738294784-ntHH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQc2isBE6-pv4qF0TQYRxS_QPnu2N9r2l4'
   },
 ];
 
@@ -111,22 +117,40 @@ function Projects() {
               ))}
             </div>
             <div className="flex gap-4 mt-4">
-              <a
-                href={project.liveLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1 text-blue-900 font-medium hover:underline"
-              >
-                <WebIcon /> Live Site
-              </a>
-              <a
-                href={project.repoLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1 text-blue-900 font-medium hover:underline"
-              >
-                <GitHubIcon /> GitHub
-              </a>
+              {project.liveLink &&
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-900 font-medium hover:underline"
+                >
+
+                  <WebIcon /> Live Site
+                </a>
+              }
+
+              {project.repoLink &&
+                <a
+                  href={project.repoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-900 font-medium hover:underline"
+                >
+                  <GitHubIcon /> GitHub
+
+                </a>
+              }
+              {project.linkedInLink &&
+                <a
+                  href={project.linkedInLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-900 font-medium hover:underline"
+                >
+                  <LinkedIn /> LinkedIn
+
+                </a>
+              }
             </div>
           </div>
         ))}

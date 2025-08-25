@@ -7,6 +7,7 @@ import Alert from '@mui/material/Alert';
 import MenuIcon from '@mui/icons-material/Menu';
 // import MyResume from '../assets/AvinashResume.pdf';
 import MyResume from '../assets/avinash__resumee.pdf';
+// import MyResume from '../asse';
 import { Button, Typography } from '@mui/material';
 import MailIcon from '@mui/icons-material/Mail';
 
@@ -173,9 +174,7 @@ function Header() {
                                 </Typography>
                             </div>
 
-                             git config --global user.email "raavaannn@gmail.com"
-                              git config --global user.name "avinashh10x"
-
+                            
                             {/* Resume Button */}
                             <a
                                 href={MyResume}
