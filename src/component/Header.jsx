@@ -6,7 +6,7 @@ import Snackbar from '@mui/material/Snackbar';
 import Alert from '@mui/material/Alert';
 import MenuIcon from '@mui/icons-material/Menu';
 // import MyResume from '../assets/AvinashResume.pdf';
-import MyResume from '../assets/avinash__resumee.pdf';
+import MyResume from '../assets/AVINASH__RESUMEE.pdf';
 // import MyResume from '../asse';
 import { Button, Typography } from '@mui/material';
 import MailIcon from '@mui/icons-material/Mail';
